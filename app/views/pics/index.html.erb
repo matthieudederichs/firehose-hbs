@@ -1,0 +1,13 @@
+
+<% @pics.each do |pic| %>
+
+<div class="smurfy span4 text-center">
+	<h1 class="custom-h1">
+		<%= pic.title %> </br>
+	</h1>
+	<h2>
+		<%= pic.subtitle %> </br>
+	</h2>
+	 	<%= pic.message %> </br>
+</div>
+<% end %>
