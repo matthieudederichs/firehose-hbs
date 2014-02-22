@@ -4,7 +4,7 @@ class PicsController < ApplicationController
 	end
 
 	def new
-		@pic = Pic.new(:title => 'Enter your title')
+		@pic = Pic.new
 	end
 
 	def create
